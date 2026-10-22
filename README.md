@@ -44,7 +44,7 @@ El desarrollo del proyecto y la gestión documental se regulan bajo el siguiente
 
 ---
 
-## 5. Integrantes del Equipo de Desarrollo (SQLitos)
+## 5. Integrantes del Equipo de Desarrollo (LABLOMY)
 
 * **Jorge Angel Cores Arcade**
 * **Dustin Fernando Vaca Aguilar**
