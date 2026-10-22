@@ -261,3 +261,67 @@ Las historias de usuario están construidas con el formato: **«Como [tipo de us
 | **Iteración** | 4 |
 | **Criterios de aceptación** | - Los indicadores usan datos registrados.<br>- La información es comprensible. |
 | **Tareas** | - Definir indicadores<br>- Crear consultas agregadas<br>- Diseñar dashboard<br>- Validar cálculos |
+
+# Product Backlog y Matriz RACI - LABCONTROL
+
+---
+
+## 7. Product Backlog
+
+| ID | Requerimiento | Prioridad | Puntos | Iteración |
+| :--- | :--- | :--- | :--- | :--- |
+| **PB-01** | Inicio de sesión / autenticación | Alta | 8 | 1 |
+| **PB-02** | Consultar disponibilidad | Alta | 3 | 1 |
+| **PB-03** | Consultar horarios | Alta | 3 | 1 |
+| **PB-04** | Consultar información de laboratorio | Media | 3 | 1 |
+| **PB-05** | Solicitar uso de laboratorio | Alta | 5 | 1 |
+| **PB-06** | Consultar mis solicitudes | Media | 3 | 1 |
+| **PB-07** | Consultar estado de solicitud | Media | 3 | 1 |
+| **PB-08** | Registrar utilización de laboratorio/equipo | Media | 5 | 2 |
+| **PB-09** | Reportar incidencia de equipo | Alta | 5 | 3 |
+| **PB-10** | Consultar estado de incidencia | Media | 3 | 3 |
+| **PB-11** | Gestionar incidencias | Alta | 5 | 3 |
+| **PB-12** | Administrar laboratorios | Media | 5 | 2 |
+| **PB-13** | Administrar horarios | Media | 5 | 2 |
+| **PB-14** | Administrar usuarios y roles | Media | 5 | 2 |
+| **PB-15** | Historial de solicitudes | Baja | 5 | 4 |
+| **PB-16** | Historial de incidencias | Baja | 5 | 4 |
+| **PB-17** | Reportes de gestión | Baja | 5 | 4 |
+| **PB-18** | Indicadores de gestión | Baja | 5 | 4 |
+| **PB-19** | Notificaciones | Media | 5 | 4 |
+| **PB-20** | Estadísticas de uso | Baja | 5 | 4 |
+
+---
+
+## Matriz RACI actualizada — LABCONTROL
+*Equipo de 3 integrantes · Sistema web para la gestión y control de laboratorios del Centro de Cómputo de UNIVALLE*
+
+### 1. Integrantes y roles principales
+
+| Integrante | Rol principal | Responsabilidades |
+| :--- | :--- | :--- |
+| **Dustin Fernando Vaca Aguilar** | Desarrollador Frontend / UX-UI | Interfaces, formularios, navegación, experiencia de usuario y pruebas visuales. |
+| **Jorge Angel Cores Andrade** | Desarrollador Backend / Base de Datos | API, lógica de negocio, diseño de base de datos e integración con el servidor. |
+| **Jheremy Jhostin Ramirez Arcani** | Analista de requisitos y coordinador del proyecto | Requisitos, historias de usuario, seguimiento de tareas, documentación, coordinación de integración y apoyo en pruebas. |
+
+### 2. Matriz RACI por actividad
+*Leyenda: **R** = Responsable · **A** = Aprobador · **C** = Consultado · **I** = Informado.*
+
+| Actividad | Dustin | Jorge | Jheremy |
+| :--- | :---: | :---: | :---: |
+| **1. Levantamiento de requisitos** | C | C | R/A |
+| **2. Historias de usuario y Product Backlog** | C | C | R/A |
+| **3. Diseño de la base de datos** | I | R/A | C |
+| **4. Diseño de interfaces UX/UI** | R/A | C | C |
+| **5. Desarrollo del Frontend** | R/A | C | I |
+| **6. Desarrollo del Backend y API** | C | R/A | I |
+| **7. Integración Frontend–Backend** | R | R | A |
+| **8. Pruebas de interfaz y navegación** | R/A | C | C |
+| **9. Pruebas de API y base de datos** | C | R/A | C |
+| **10. Pruebas funcionales generales** | R | R | A |
+| **11. Gestión de tareas e Issues** | C | C | R/A |
+| **12. Repositorio, ramas y convenciones de commits** | R | R/A | C |
+| **13. Documentación técnica y README** | C | C | R/A |
+| **14. Manual de usuario** | R | C | R/A |
+| **15. Seguimiento de avances e iteraciones XP** | C | C | R/A |
+| **16. Preparación y defensa de la exposición** | R | R | R/A |
